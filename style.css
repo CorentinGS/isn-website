@@ -7,7 +7,6 @@ body {
   padding: 0px;
   background: #bababa;
   margin: 0;
-  
 }
 
 .header {
@@ -26,7 +25,6 @@ body {
   background-color: #1c2541;
 }
 
-/* Style the topnav links */
 .menu a {
   float: left;
   display: block;
@@ -36,7 +34,6 @@ body {
   text-decoration: none;
 }
 
-/* Change color on hover */
 .menu a:hover {
   background-color: #ddd;
   color: black;
@@ -53,10 +50,6 @@ body {
   flex: 1;
   padding: 10px;
 }
-
-
-/* Clear floats after the columns */
-
 
 .banner:after {
   content: "";
@@ -95,6 +88,7 @@ body {
     flex-direction: column;
   }
 }
+
 .banner3 {
   display: -webkit-flex;
   display: flex;
