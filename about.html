@@ -1,51 +1,81 @@
 <html>
+  <head>
+    <title>Ma page web</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
 
-<head>
-  <title>Ma page web</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/21fb716b8c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-  <link rel="stylesheet" href="style.css" />
-  <script src="https://kit.fontawesome.com/21fb716b8c.js" crossorigin="anonymous"></script>
-</head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <h1>Who are we ?</h1>
+    </header>
 
-<body>
-  <!-- Header -->
-  <header class="header">
-    <h1>Who am I ?</h1>
-  </header>
+    <!-- Nav -->
+    <div class="menu">
+      <a href="index.html"><i class="fas fa-home"></i> Home</a>
+      <a href="distro.html"><i class="fas fa-tasks"></i> Distros</a>
+      <a href="about.html"><i class="fas fa-address-card"></i> About</a>
+    </div>
 
-  <!-- Nav -->
-  <div class="menu">
-    <a href="index.html"><i class="fas fa-home"></i> Home</a>
-    <a href="distro.html"><i class="fas fa-tasks"></i> Distros</a>
-    <a href="about.html"><i class="fas fa-address-card"></i> About</a>
-  </div>
+    <!-- User -->
+      <h2 style="text-align:center">The Team</h2>
+      <div class="row">
+        <div class="column-card">
+          <div class="card">
+            <img src="ressources/linux.jpeg" style="width:100%" />
+            <div class="container">
+              <h2>Tux</h2>
+              <p class="title">Main developer</p>
+              <p>Tux is the main developer</p>
+              <p><button class="button" onclick="window.location.href = 'https://linux.com';">Learn more</button></p>
+            </div>
+          </div>
+        </div>
 
-  <!-- User -->
-  <div class="contact"></div>
-  <section id="user">
-    <span class="avatar"><img src="ressources/avatar.png" alt="" style="width:100%" /></span>
-    <h1>Tux</h1>
-    <p class="title">Student</p>
-  </section>
-  </div>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="content">
-      <div>
-        <h4>Contact</h4>
-        <div class="wrapper">
-          <a href="https://twitter.com/linuxdotcom"><i class="fab fa-twitter"></i></a>
-          <a href="mailto:yume.network@protonmail.com"><i class="fas fa-envelope"></i></a>
-          <a href="https://github.com/yumenetwork"><i class="fab fa-github"></i></a>
+        <div class="column-card">
+          <div class="card">
+            <img src="ressources/linux-2.jpg" style="width:100%" />
+            <div class="container">
+              <h2>Corentin</h2>
+              <p class="title">Student & Developer</p>
+              <p>High school student & developer</p>
+              <p><button class="button" onclick="window.location.href = 'moi.html';">Learn more</button></p>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="copyright">
-        Copyright © YumeNetwork 2020      </div>
-    </div>
-  </footer>
-</body>
 
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="content">
+        <div>
+          <h4>Contact</h4>
+          <div class="wrapper">
+            <a href="https://twitter.com/linuxdotcom"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a href="mailto:yume.network@protonmail.com"
+              ><i class="fas fa-envelope"></i
+            ></a>
+            <a href="https://github.com/yumenetwork"
+              ><i class="fab fa-github"></i
+            ></a>
+          </div>
+        </div>
+        <div class="copyright">
+          Copyright © YumeNetwork 2020
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
